@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  oracledb:
+    build: .
+    # Start container with user 100 and group 100
+    user: 100:100
